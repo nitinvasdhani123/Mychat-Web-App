@@ -1,0 +1,242 @@
+#main-container
+{
+   height: 43rem;
+   display: flex;
+}
+
+#show-user-container
+{
+    width: 25%;
+}
+
+.my-profile
+{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 235, 235);
+}
+
+.my-profile img
+{
+    border: 1px solid black;
+    width: 3rem;
+    border-radius: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+.my-profile p
+{
+    margin: 0rem 2rem;
+}
+
+.my-profile button
+{
+    margin: 0rem 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.my-profile button:hover
+{
+    background-color: aqua;
+}
+
+.my-profile i
+{
+    font-size: 1rem;
+}
+
+.users-profile
+{
+    height: 88vh;
+    overflow-y: scroll;
+    background-color: rgb(241, 241, 241);
+}
+
+.users-profile::-webkit-scrollbar 
+{
+    display: none;
+}
+
+.one-user-profile
+{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.one-user-profile:hover
+{
+    background-color: rgb(223, 223, 223);
+}
+
+.one-user-profile img
+{
+    border: 1px solid black;
+    width: 3rem;
+    border-radius: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+.one-user-profile div
+{
+    margin: 0rem 0.5rem;
+}
+
+#show-user-chat-container
+{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(240, 235, 235);
+}
+
+#show-user-chat-container img
+{
+    mix-blend-mode: multiply;
+    height: 20rem;
+    width: 35rem;
+}
+
+#show-user-chat-container h1
+{
+    font-size: 4rem;
+}
+
+#show-user-chat-container p
+{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+#show-user-chats
+{
+    /* border-left: 1px solid rgb(240, 235, 235);  */
+    width: 75%;
+}
+
+.top
+{
+    border-left: 2px solid rgb(216, 216, 216);
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 235, 235);
+}
+
+.top img
+{
+    border: 1px solid black;
+    width: 3rem;
+    border-radius: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+.top p
+{
+    margin: 0rem 0.5rem;
+}
+
+.middle
+{
+    height: 80vh;
+    overflow-y: scroll;
+    background-image: url('./chatbackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle::-webkit-scrollbar 
+{
+    display: none;
+}
+
+.my-message
+{
+    float: right;
+    clear: both;
+    margin: 0.5rem 1rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.my-message span
+{
+    font-size: 12px;
+    margin: 0rem 0.5rem;
+}
+
+.user-message
+{
+    float: left;
+    clear: both;
+    margin: 0.5rem 1rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.user-message span
+{
+    font-size: 12px;
+    margin: 0rem 0.5rem;
+}
+
+.end
+{
+    height: 8vh;
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end input
+{
+    width: 62rem;
+    height: 2rem;
+    outline: none;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+}
+
+.end input::placeholder
+{
+    color: rgb(165, 163, 163);
+    text-align: left;
+}
+
+.end button
+{
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+}
+
+.end button:hover
+{
+    background-color: lightblue;
+}
+
+#display
+{
+    display: none;
+}

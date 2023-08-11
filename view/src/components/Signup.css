@@ -1,0 +1,148 @@
+#signup-container
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./chatbot.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.signup-container
+{
+    border: 2px solid white;
+    width: 30rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(0.5rem);
+}
+
+.signup-container h1
+{
+    color: white;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.input-field
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.input-field input
+{
+    color: white;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    width: 22rem;
+}
+
+.password-field
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.password-field input
+{
+    color: white;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: transparent;
+    border: 1px solid white;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 20.2rem;
+}
+
+.password-field-show-icon
+{
+    border: 1px solid white;
+    color: white;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.password-field-show-icon i
+{
+    padding: 0.6rem 0.2rem;
+}
+
+::placeholder {
+  text-align: center;
+  color: white;
+}
+
+.file-field
+{
+    display: flex;
+    justify-content: center;
+}
+
+.file-field input
+{
+    color: white;
+}
+
+.file-field input::file-selector-button {
+    font-size: 1rem;
+    color: rgb(86, 189, 223);
+    padding: 0.5em;
+    border: thin solid grey;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.button-field
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.button-field button
+{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.button-field button:hover
+{
+    background-color: white;
+    color: rgb(86, 189, 223);
+}
+
+.already
+{
+    margin: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.already a
+{
+    text-decoration: none;
+    color: rgb(88, 88, 194);
+}
+
+.already a:hover
+{
+    color: white;
+}
